@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        caption{
+            color: blue;
+            font-size: 30px;
+            font-weight: bold;
+            
+        }
+        th{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table border="2" >
+            <caption>Time schedule</caption>
+            <tr>
+                <th rowspan="2">id1</th>
+                <th rowspan="2">machine_1</th>
+                <th>component A</th>
+                <th>-</th>
+                <th style="background-color: red;">RED</th>
+            </tr>
+            <tr>
+                <th>component B</th>
+                <th>-</th>
+                <th style="background-color: red;">RED</th>
+            </tr>
+            <th rowspan="8">id 2</th>
+            <th rowspan="8">machine B</th>
+            <th>component A</th>
+            <th>-</th>
+            <th style="background-color: green;">GREEN</th>
+            <tr>
+                <th rowspan="7">component C</th>
+                <th>2021-07-06 15:00:00-04:00</th>
+                <th>616</th>
+            </tr>
+            <tr>
+                <th>2021-07-06 16:00:00-04:00</th>
+                <th>494</th>
+            </tr>
+            <tr>
+                <th>2021-07-06 17:00:00-04:00</th>
+                <th>615</th>
+            </tr>
+            <tr>
+                <th>2021-07-06 18:00:00-04:00</th>
+                <th>729</th>
+            </tr>
+            <tr>
+                <th>2021-07-06 19:00:00-04:00</th>
+                <th>465</th>
+            </tr>
+            <tr>
+                <th>2021-07-06 20:00:00-04:00</th>
+                <th>0</th>
+            </tr>
+            <tr>
+                <th>-</th>
+                <th>OK</th>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

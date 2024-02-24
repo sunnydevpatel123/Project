@@ -1,0 +1,41 @@
+#iform{
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 30px;
+    background-color: rgba(0,255,0,0.50);
+    box-shadow: 5px 5px 5px white;
+    
+
+}
+#fh{
+    text-align: center;
+    font-style: algerian;
+    color: red;
+    text-shadow: 5px 5px 5px white;
+}
+hr{
+    width: 100%;
+    height:1px;
+    background-color: white;
+
+}
+#ff{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.ic{
+    width:80%;
+    height:30px;
+    font-size: 18px;
+
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(0,0,255,0.50);
+    font-size: 20px;
+    font-weight: bold;
+
+}

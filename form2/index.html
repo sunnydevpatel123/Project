@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+  </head>
+
+<body style="background-color: lightblue;">
+    <form>
+    <div>
+        <center><h1>Application Form</h1></center><br><br>
+        <label for=""> First Name :</label>
+        <input type="text" placeholder="enter your first name...">
+        <label for="">Last Name :</label>
+        <input type="text" placeholder="enter your last name..."><br><br>
+        <label for="">Email Id :</label>
+        <input type="email" placeholder="enter the email id..."><br><br>
+        <label for="">D.O.B</label>
+        <input type="date" placeholder="your date of birth..."><br><br>
+        <label for="">Mobile No :</label>
+        <input type="phone" placeholder="enter the mobile no..."><br><br>
+        <label for="">Address :</label><br>
+        <textarea rows="5" cols="50" placeholder="enter your address..." ></textarea><br><br>
+        <fieldset>
+            <legend for="">Gender :</legend>
+            <input type="radio"id="gender"name="gender" checked>Male 
+            <input type="radio"id="gender" name="gender">Female 
+        </fieldset><br>
+        <label for=""> Set Password :</label>
+        <input type="text" placeholder="enter your password..."><br><br>
+        <label for="">Conform password :</label>
+        <input type="text" placeholder="your conform password..."><br><br>
+        <fieldset>
+            <legend for="">Hobbies :</legend>
+            <input type="checkbox">Playing cricket
+            <input type="checkbox"> Watching Movies
+            <input type="checkbox"> Listening Music
+            <input type="checkbox">Reading
+        </fieldset><br>
+        <label for="">Favorite color:</label>
+        <input type="color" id="color" name="color"><br><br>
+        <fieldset>
+        <legend>Upload your resume</legend>
+        <label for="">Choose File :</label>
+        <input type="file">
+        </fieldset><br>
+        <label for="">Select your city</label>
+        <select>
+        <option value="">Choose city</option>
+        <optgroup label="Bihar">
+            <option value="Patna">Patna</option>
+            <option value="Sasaram">Sasaram</option>
+        </optgroup>
+        <optgroup label="U.P">
+            <option value="Varanashi">Varanashi</option>
+            <option value="Gorakhpur">Gorakhpur</option>
+        </optgroup>
+        <optgroup label="Jharkhand">
+            <option value="Ranchi">Ranchi</option>
+            <option value="dhanbad">Dhanbad</option>
+        </optgroup>
+        <optgroup label="M.P">
+            <option value="">Bhopal</option>
+            <option value="">Indore</option>
+        </optgroup>
+        </select><br><br>
+       <label >select your heighest your Qualification:</label>
+       <select>
+        <option value="">Choose Qualification</option>
+       <option >Matriculation</option>
+       <option>Intermediate</option>
+       <option>Graduation</option>
+       <option>Post graduation</option>
+       </select><br><br>
+       <fieldset>
+        <legend for="">Heighest Qualification:</legend><br>
+        <label for="">Qualification name :</label>
+        <input type="text">
+        <label for="">Roll No:</label>
+        <input type="text">
+        <label for="">Certificate No:</label>
+        <input type="text">
+        <label for="">Passing date:</label>
+        <input type="date">
+    </fieldset><br>
+    <label for="">Experience</label>
+    <input type="number" id="experience" name="experience"><br><br>
+    <label for="">Search:</label>
+    <input type="search" placeholder="type to search..."><br><br>
+  </div>
+    <div class="g-recaptcha" data-sitekey="6LepgnspAAAAAIBPMq_JG3GyB77ehO6rpTYEuR0x" data-action="LOGIN"></div>
+    <br/>
+    <button>Preview</button>
+    <input type="submit">
+    <input type="reset">
+    </form>
+</body>
+</html>
